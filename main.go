@@ -46,13 +46,6 @@ func main() {
     	// initialize ton api lite connection wrapper
     	api := ton.NewAPIClient(client)
 
-    	master, err := api.GetMasterchainInfo(context.Background())
-    	if err != nil {
-        	log.Fatalln("get masterchain info err: ", err.Error())
-        	return
-    	}
-    	log.Println(master)
-
 	reader := bufio.NewReader(os.Stdin)
 
 	// Get seed phrase from user
