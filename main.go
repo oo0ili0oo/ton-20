@@ -25,7 +25,7 @@ type Receiver struct {
 
 func main() {
 	client := liteclient.NewConnectionPool()
-	content, err := ioutil.ReadFile("./config.json")
+	content, err := ioutil.ReadFile("/root/ton-20/config.json")
     	if err != nil {
         	log.Fatal("Error when opening file: ", err)
     	}
