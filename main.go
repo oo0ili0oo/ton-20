@@ -10,7 +10,6 @@ import (
 	"os"
 	"strings"
 	"io/ioutil"
-	"js/json"
 
 	"github.com/xssnick/tonutils-go/address"
 	"github.com/xssnick/tonutils-go/liteclient"
