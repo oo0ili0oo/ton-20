@@ -1,4 +1,4 @@
-This code only work with your liteserver config, if you dont have it try [this](https://go.dev](https://github.com/qpwedev/ton-20-minter))
+This code only work with your liteserver config, if you dont have it try [this](https://github.com/qpwedev/ton-20-minter)
 
 Open your terminal and paste these commands:
 ```
